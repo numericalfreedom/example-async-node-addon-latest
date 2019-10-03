@@ -23,5 +23,7 @@ $ node doAsync.js
 
 ## Credits
 
+Thanks to Paul Hauner [https://github.com/paulhauner/example-async-node-addon](https://github.com/paulhauner/example-async-node-addon) for the first version of the source code.
+
 Thanks to Scott Frees' [C++ processing from Node.js - Part 4 - Asynchronous addons](https://blog.scottfrees.com/c-processing-from-node-js-part-4-asynchronous-addons) article for a lot of help.
 
