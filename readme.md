@@ -4,7 +4,7 @@ Allows for non-blocking C++ operations from Node.js using the callback pattern.
 
 Lightweight example.
 
-Tested in @latest cutting-bleeding-edge Node.js v12.11.1 version on (excellent) openSUSE Tumbleweed Linux
+Tested in @latest cutting-bleeding-edge Node.js v12.12.0 version on (excellent) openSUSE Tumbleweed Linux
 
 
 ## Usage

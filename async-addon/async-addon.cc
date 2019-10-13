@@ -8,7 +8,11 @@
 #include <node.h>
 #include <uv.h>
 #include <iostream>
+#ifdef __linux__
 #include <unistd.h>
+#elif _WIN32
+#include <stdlib.h>
+#endif
 
 
 using namespace std;
@@ -59,8 +63,12 @@ namespace asyncAddon
    {
 
     Work *work = static_cast<Work *>(req->data) ;
-    
-    sleep(3) ;
+
+#ifdef __linux__
+    sleep(3)
+#elif _WIN32
+    Sleep(3000) ;
+#endif
 
     work->result = "Async task successfully processed." ;
 
