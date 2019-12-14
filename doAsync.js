@@ -2,7 +2,7 @@
 *   An example of an asynchronous C++ node addon.
 *   Provided by paulhauner https://github.com/paulhauner
 *   License: MIT
-*   Tested in node.js v12.10.0 in openSUSE Linux Tumbleweed
+*   Tested in node.js v13.3.0 in openSUSE Linux Tumbleweed
 *
 *   In order to get latest node.js official release version X.X.X do:
 *
